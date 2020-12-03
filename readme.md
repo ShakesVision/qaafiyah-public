@@ -12,11 +12,13 @@ I was deliberately ignoring the actual notif system, because:
 - It will increase the app size
 - It won't be used as much, because app isn't content based, except the "Essays" section [Tab4] which is not updated very often
 
-# About Me
+## About Me
 Shakeeb Ahmad, India.
+
 Blogs:
-- ur.Shakeeb.in
+- ur.shakeeb.in
 - www.shakeeb.in
+
 Hire/Work with us:
 - www.sarbakaf.com
 - sarbakafgroup@gmail.com
