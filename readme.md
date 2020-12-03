@@ -16,9 +16,9 @@ I was deliberately ignoring the actual notif system, because:
 Shakeeb Ahmad, India.
 
 Blogs:
-- ur.shakeeb.in
-- www.shakeeb.in
+- **Urdu :** [ur.shakeeb.in](https://ur.shakeeb.in)
+- **English :** [shakeeb.in](https://www.shakeeb.in)
 
 Hire/Work with us:
-- www.sarbakaf.com
-- sarbakafgroup@gmail.com
+- **Website :** [sarbakaf.com](https://www.sarbakaf.com)
+- **Email :** [sarbakafgroup@gmail.com](mailto:sarbakafgroup@gmail.com) 
