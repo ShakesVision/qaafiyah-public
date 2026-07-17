@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "begins_with",
+      "type": "regex",
+      "template": "^{query}",
+      "label": { "en": "Begins with", "ur": "سے شروع", "hi": "से शुरू" },
+      "desc": {
+        "en": "Words starting with your letters",
+        "ur": "آپ کے حروف سے شروع ہونے والے الفاظ",
+        "hi": "आपके अक्षरों से शुरू होने वाले शब्द"
+      },
+      "needsQuery": true
+    },
+    {
+      "id": "contains",
+      "type": "regex",
+      "template": "{query}",
+      "label": { "en": "Contains", "ur": "شامل ہو", "hi": "शामिल हो" },
+      "desc": {
+        "en": "Words containing your letters anywhere",
+        "ur": "الفاظ جن میں آپ کے حروف کہیں بھی ہوں",
+        "hi": "शब्द जिनमें आपके अक्षर कहीं भी हों"
+      },
+      "needsQuery": true
+    },
+    {
+      "id": "exact",
+      "type": "regex",
+      "template": "^{query}$",
+      "label": { "en": "Exact word", "ur": "بالکل یہی لفظ", "hi": "ठीक यही शब्द" },
+      "desc": {
+        "en": "Match the complete word only",
+        "ur": "صرف مکمل لفظ سے مطابقت",
+        "hi": "केवल पूरे शब्द से मिलान"
+      },
+      "needsQuery": true
+    },
+    {
+      "id": "min_length_endswith",
+      "type": "regex",
+      "template": "{query}.{{min},}$",
+      "label": { "en": "Longer words ending with", "ur": "لمبے الفاظ جو آخر میں ہوں", "hi": "अंत में आने वाले लंबे शब्द" },
+      "desc": {
+        "en": "Find longer words that end with your letters",
+        "ur": "آپ کے حروف پر ختم ہونے والے لمبے الفاظ",
+        "hi": "आपके अक्षरों पर समाप्त होने वाले लंबे शब्द"
+      },
+      "needsQuery": true,
+      "needsNumber": true,
+      "numberKey": "min",
+      "defaultNumber": 4
+    },
+    {
+      "id": "last_n_letters",
+      "type": "regex",
+      "template": ".{{n}}{query}$",
+      "label": { "en": "Last N letters + query", "ur": "آخری N حروف + حرف", "hi": "आख़िरी N अक्षर + अक्षर" },
+      "desc": {
+        "en": "Keep an extra suffix length before your query",
+        "ur": "آپ کے حروف سے پہلے مزید آخری حروف شامل کریں",
+        "hi": "आपके अक्षरों से पहले अतिरिक्त अक्षर जोड़ें"
+      },
+      "needsQuery": true,
+      "needsNumber": true,
+      "numberKey": "n",
+      "defaultNumber": 2
+    },
+    {
+      "id": "without_diacritics",
+      "type": "regex_no_diacritics",
+      "template": "{query}",
+      "label": { "en": "Ignore diacritics", "ur": "اعراب نظر انداز", "hi": "नुक्ते नजरअंदाज़" },
+      "desc": {
+        "en": "Search after stripping tashkeel/diacritics",
+        "ur": "اعراب ہٹا کر تلاش",
+        "hi": "तशकील हटाकर खोजें"
+      },
+      "needsQuery": true
+    },
+    {
+      "id": "wazn_equals",
+      "type": "wazn",
+      "label": { "en": "Same wazn as pattern", "ur": "اسی وزن والے الفاظ", "hi": "इसी वज़्न वाले शब्द" },
+      "desc": {
+        "en": "Use the wazn input to find matching words",
+        "ur": "وزن والے خانے سے مطابق الفاظ تلاش کریں",
+        "hi": "वज़्न बॉक्स से मिलते शब्द ढूँढें"
+      },
+      "needsWazn": true
+    },
+    {
+      "id": "length_equals",
+      "type": "length_equals",
+      "label": { "en": "Word length equals", "ur": "لفظ کی لمبائی", "hi": "शब्द की लंबाई" },
+      "desc": {
+        "en": "Find words with exactly N characters",
+        "ur": "بالکل N حروف والے الفاظ",
+        "hi": "ठीक N अक्षर वाले शब्द"
+      },
+      "needsNumber": true,
+      "numberKey": "n",
+      "defaultNumber": 4
+    },
+    {
+      "id": "contains_both",
+      "type": "contains_both",
+      "label": { "en": "Contains both parts", "ur": "دونوں حصے شامل ہوں", "hi": "दोनों हिस्से शामिल हों" },
+      "desc": {
+        "en": "Type two parts separated by space",
+        "ur": "دو حصے اسپیس سے الگ لکھیں",
+        "hi": "दो हिस्से स्पेस से अलग लिखें"
+      },
+      "needsQuery": true
+    },
+    {
+      "id": "regex",
+      "type": "regex_raw",
+      "label": { "en": "Regex (advanced)", "ur": "ریگولر ایکسپریشن", "hi": "रेगुलर एक्सप्रेशन" },
+      "desc": {
+        "en": "Use a full regex pattern",
+        "ur": "مکمل ریگولر ایکسپریشن استعمال کریں",
+        "hi": "पूरा रेगुलर एक्सप्रेशन लिखें"
+      },
+      "needsQuery": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "minSupportedAppVersion": "1.1.0",
+  "cacheMaxAgeMs": 21600000,
+  "urls": {
+    "announcements": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/announcements.json",
+    "quotes": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/quotes.json",
+    "challengePrompts": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/challenge-prompts.json",
+    "searchPresets": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/search-presets.json",
+    "wordListsManifest": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/word-lists-manifest.json",
+    "dictionaries": {
+      "ur": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/UrduLughatWithTaqti.txt",
+      "hi": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Hindi.txt",
+      "fa": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Farsi.txt",
+      "en": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Roman.txt"
+    },
+    "hyperdictBase": "https://raw.githubusercontent.com/ShakesVision/urdu-archive/refs/heads/master/raw/DICTIONARIES/Urdu-Urdu/",
+    "aruuzWordsCustom": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/DICTIONARIES/aruuz/words-custom.json",
+    "islahGSheetBackup": "https://script.google.com/macros/s/AKfycbzK4-YAziMMMwd5i9VK25nnuHAeMaSFU8d8erNrCsl6FlXy8GX0KTV7gjkE-facooq2jw/exec"
+  },
+  "points": {
+    "pointsPerAd": 10,
+    "publicIslahCost": 10,
+    "privateIslahCost": 30,
+    "adFree1HourCost": 30,
+    "adFree24HourCost": 100,
+    "extraShersCost": 20,
+    "exportImageCost": 2
+  },
+  "features": {
+    "defaultAruuzEngine": "local",
+    "poetryStudio": { "requireRewardedAd": true },
+    "iap": { "enabled": false },
+    "challengeGenerator": true
+  },
+  "links": {
+    "playStore": "https://play.google.com/store/apps/details?id=com.sarbakaf.qaafiyah",
+    "feedbackForm": "https://docs.google.com/forms/d/e/1FAIpQLSfexample/viewform",
+    "tutorialVideo": "https://youtu.be/fS3IyiUvHwQ"
+  }
+}

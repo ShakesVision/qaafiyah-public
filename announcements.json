@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tips-islah",
+    "title": "Islah tips",
+    "subtitle": "Meter checks and preview updates",
+    "body": "Preview now uses the poetry-studio engine. Check meter before submitting to Islah.",
+    "ctaText": "Watch tutorial",
+    "ctaUrl": "https://youtu.be/fS3IyiUvHwQ",
+    "priority": 2,
+    "dismissible": true
+  },
+  {
+    "id": "backup-cloud",
+    "title": "Backup & Sync",
+    "subtitle": "Keep your bayaaz safe",
+    "body": "Export a local backup or connect Google Drive/OneDrive when configured.",
+    "priority": 1,
+    "dismissible": true
+  }
+]
