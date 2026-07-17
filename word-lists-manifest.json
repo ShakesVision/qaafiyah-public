@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-07-17",
   "sourceManifest": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/manifest.json",
   "dictionaries": {
@@ -11,8 +11,9 @@
     },
     "hi": {
       "url": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Hindi.txt",
-      "sha256": "63B3768B06E3494164DBA0258313041A70CC24823A77F80D073D2A4E64C70ACE",
-      "size": 627527
+      "sha256": "363DF5F7E5D4F50FC08C3E85A616FE0F85066A532BD37526CF9A6F30BA53CE78",
+      "size": 1981319,
+      "hasWazn": true
     },
     "fa": {
       "url": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Farsi.txt",
@@ -21,8 +22,9 @@
     },
     "en": {
       "url": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Roman.txt",
-      "sha256": "EB4577DA246F7775576DDAAFA8F37892C5A7AAC3B25ECCFADD95F71EE1060C92",
-      "size": 259986
+      "sha256": "B52E79A3C10A3365241A81A9EF6F6B7FD5840724023DE68A8FE43C6B76813F52",
+      "size": 1087738,
+      "hasWazn": true
     }
   },
   "curatedLists": [
@@ -37,6 +39,22 @@
       "sha256": "FEBCE2E2707B0C7939A88C1FF8083D92726CD0231E758E9EDB689BF92E707B7D",
       "size": 21139,
       "hasWazn": false,
+      "enabled": true
+    },
+    {
+      "id": "pure-hindi",
+      "name": {
+        "en": "Pure Hindi (Hunspell)",
+        "ur": "خالص ہندی (ہَن سپیل)",
+        "hi": "शुद्ध हिन्दी (हनस्पेल)"
+      },
+      "description": "Native Hindi dictionary headwords (LibreOffice hi_IN Hunspell / janabhaaratii, GPL) -- not derived from the Urdu list, so it covers tatsam/tadbhav Sanskrit-origin words the Urdu-derived hi dictionary misses.",
+      "url": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/PureHindi.txt",
+      "sha256": "77A0363966EA57B26343FC8425333573D1D9DB9AA865B92DB394E66869457E18",
+      "size": 4835400,
+      "hasWazn": false,
+      "license": "GPL",
+      "attribution": "GNU Aspell Hindi Word List (janabhaaratii, 2005) via LibreOffice hi_IN Hunspell dictionary",
       "enabled": true
     }
   ]
