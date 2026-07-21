@@ -1,9 +1,10 @@
 {
   "version": 1,
-  "minSupportedAppVersion": "1.1.0",
+  "minSupportedAppVersion": "1.0.0",
   "cacheMaxAgeMs": 21600000,
   "urls": {
     "announcements": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/announcements.json",
+    "sponsors": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/sponsors.json",
     "quotes": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/quotes.json",
     "challengePrompts": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/challenge-prompts.json",
     "searchPresets": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/search-presets.json",
@@ -12,11 +13,16 @@
       "ur": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/UrduLughatWithTaqti.txt",
       "hi": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Hindi.txt",
       "fa": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Farsi.txt",
-      "en": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Roman.txt"
+      "en": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Roman.txt",
+      "ar": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/WORD-LISTS/Arabic.txt"
     },
     "hyperdictBase": "https://raw.githubusercontent.com/ShakesVision/urdu-archive/refs/heads/master/raw/DICTIONARIES/Urdu-Urdu/",
-    "aruuzWordsCustom": "https://cdn.jsdelivr.net/gh/ShakesVision/urdu-archive@master/raw/DICTIONARIES/aruuz/words-custom.json",
+    "aruuzWordsCustom": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/words-custom.json",
     "islahGSheetBackup": "https://script.google.com/macros/s/AKfycbzK4-YAziMMMwd5i9VK25nnuHAeMaSFU8d8erNrCsl6FlXy8GX0KTV7gjkE-facooq2jw/exec"
+  },
+  "api": {
+    "baseUrl": "https://api.theothermeunfolded.com",
+    "aruuzComBase": "https://aruuz.com/api/default"
   },
   "points": {
     "pointsPerAd": 10,
@@ -24,8 +30,28 @@
     "privateIslahCost": 30,
     "adFree1HourCost": 30,
     "adFree24HourCost": 100,
-    "extraShersCost": 20,
-    "exportImageCost": 2
+    "extraShersCost": 20
+  },
+  "islah": {
+    "minShers": 2,
+    "defaultMaxShers": 10,
+    "extendedMaxShers": 20,
+    "maxMessageLength": 500,
+    "maxStoredQuestionsPerUser": 10,
+    "maxPublicFeedItems": 100
+  },
+  "ads": {
+    "admob": {
+      "banner": "ca-app-pub-9293070686220717/1234567890",
+      "interstitial": "ca-app-pub-9293070686220717/1234567890",
+      "rewarded": "ca-app-pub-9293070686220717/1234567890",
+      "nativeAdvanced": "ca-app-pub-9293070686220717/1234567890"
+    },
+    "interstitial": {
+      "appOpenIntervalMs": 14400000,
+      "minBackgroundMs": 300000
+    },
+    "rewarded": { "timeoutMs": 45000, "timerFallbackSeconds": 30 }
   },
   "features": {
     "defaultAruuzEngine": "local",
