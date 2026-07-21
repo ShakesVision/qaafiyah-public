@@ -1,0 +1,23 @@
+[
+  {
+    "id": "example-bayaaz-sponsor",
+    "slot": "tab3-editor",
+    "title": {
+      "en": "Your brand here",
+      "ur": "آپ کا برانڈ یہاں"
+    },
+    "subtitle": {
+      "en": "Reach Urdu poetry enthusiasts",
+      "ur": "اردو شاعری کے شوقینوں تک پہنچیں"
+    },
+    "imageUrl": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/sponsors/example-banner.png",
+    "ctaText": {
+      "en": "Contact us",
+      "ur": "رابطہ کریں"
+    },
+    "ctaUrl": "https://qaafiyah.com/about",
+    "priority": 10,
+    "dismissible": true,
+    "enabled": false
+  }
+]
