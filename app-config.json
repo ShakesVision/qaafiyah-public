@@ -30,7 +30,9 @@
     "privateIslahCost": 30,
     "adFree1HourCost": 30,
     "adFree24HourCost": 100,
-    "extraShersCost": 20
+    "extraShersCost": 20,
+	"exportImageCost": 2,
+	"customPageCost": 5
   },
   "islah": {
     "minShers": 2,

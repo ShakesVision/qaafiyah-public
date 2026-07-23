@@ -10,14 +10,14 @@
       "en": "Reach Urdu poetry enthusiasts",
       "ur": "اردو شاعری کے شوقینوں تک پہنچیں"
     },
-    "imageUrl": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/sponsors/example-banner.png",
+    "imageUrl": "https://cdn.jsdelivr.net/gh/ShakesVision/qaafiyah-public@main/sponsors/sponsor-banner.png",
     "ctaText": {
       "en": "Contact us",
       "ur": "رابطہ کریں"
     },
-    "ctaUrl": "https://qaafiyah.com/about",
+    "ctaUrl": "https://t.me/shakesvision",
     "priority": 10,
     "dismissible": true,
-    "enabled": false
+    "enabled": true
   }
 ]

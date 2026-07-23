@@ -1,6 +1,15 @@
 {
+  "_comment": "Each mastertable entry must be a full object with muarrab and taqti (syllables joined by ' + '). A bare wazn id like \"21\" is not valid.",
   "mastertable": {
-    "خویش": ["21"]
+    "خویش": [
+      {
+        "id": -90001,
+        "muarrab": "خِیش",
+        "taqti": "خِی + ش",
+        "language": "فارسی",
+        "isVaried": false
+      }
+    ]
   },
   "exceptions": {}
 }
